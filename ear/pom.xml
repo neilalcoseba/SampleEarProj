@@ -49,6 +49,12 @@
 			<version>1.0</version>
 		</dependency>
 		<dependency>
+			<groupId>root.project.servlets</groupId>
+			<artifactId>FileUploadServlet</artifactId>
+			<type>war</type>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
 			<groupId>root.project</groupId>
 			<artifactId>primary-source</artifactId>
 		</dependency>
