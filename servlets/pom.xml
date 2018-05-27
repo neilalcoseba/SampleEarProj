@@ -16,6 +16,7 @@
 	<modules>
 		<module>javaserverfacesui</module>
 		<module>webservices</module>
+		<module>fileuploadservlet</module>
 	</modules>
 	<dependencies>
 		<dependency>
