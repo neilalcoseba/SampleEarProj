@@ -1,0 +1,14 @@
+.settings/
+.project
+.classpath
+target
+ear/.settings/
+ear/.project
+ejbs/.settings
+ejbs/.project
+primary-source/.settings/
+primary-source/.project
+projects/.settings
+projects/.project
+servlets/.settings
+servlets/.project
