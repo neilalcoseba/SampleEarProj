@@ -8,6 +8,12 @@ public class UserBean implements Serializable {
 
 	private String firstName;
 	private String lastName;
+	private String output;
+
+	public void save() {
+		output = "You submitted: " + firstName;
+		System.out.println("SAVED");
+	}
 
 	public String getFirstName() {
 		return firstName;
@@ -23,5 +29,13 @@ public class UserBean implements Serializable {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public String getOutput() {
+		return output;
+	}
+
+	public void setOutput(String output) {
+		this.output = output;
 	}
 }

@@ -9,7 +9,12 @@
 			<title>Hello World JSF Example</title>
 		</head>
 		<body>
-			<h:inputText value="#{user.firstName}" />
+			<h:form id="form">
+				<h:inputText value="#{user.firstName}" />
+				<h:commandButton id="submit-button" value="Submit" action="#{user.save}"/>  
+			</h:form>
+			
+			<h:outputText value="#{user.output}" />
 		</body>
 	</html>
 </f:view>

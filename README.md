@@ -6,6 +6,32 @@
 3. Enable the **Use JAR archives for deployment.** by clicking the checkbox.
 4. Click **Apply and close**.
 
+## Command Line Deployment
+
+- deployment
+
+```
+deploy --target=<TARGET_NAME> --name=<INSTANCE_NAME> <EAR_LOCATION>/SampleEAR.ear
+```
+
+- undeployment
+
+```
+undeploy --cascade=true --target=<TARGET_NAME> <INSTANCE_NAME>
+```
+
+- start instance
+
+```
+start-instance --sync full <INSTANCE_NAME>
+```
+
+- stop instance
+
+```
+stop-instance <INSTANCE_NAME>
+```
+
 ## Notes
 1. This is created by Maven`s archetype-j2ee-simple archetype.
 2. Deployed and tested in Glassfish 4.
