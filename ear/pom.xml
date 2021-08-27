@@ -51,17 +51,10 @@
                             <contextRoot>/FileUploadServlet</contextRoot>
                         </webModule>
                         <webModule>
-                            <groupId>net.ensode.glassfishbook</groupId>
-                            <artifactId>facesflow</artifactId>
-                            <contextRoot>/facesflow</contextRoot>
-                        </webModule>
-                        <!--
-                        <webModule>
                             <groupId>root.project.servlets</groupId>
                             <artifactId>JavaServerFacesUI</artifactId>
                             <contextRoot>/JavaServerFacesUI</contextRoot>
                         </webModule>
-                        -->
                     </modules>
                 </configuration>
             </plugin>
@@ -75,13 +68,13 @@
             <type>ejb</type>
             <version>1.0</version>
         </dependency>
-        <!--
         <dependency>
             <groupId>root.project.servlets</groupId>
             <artifactId>JavaServerFacesUI</artifactId>
             <type>war</type>
             <version>1.0</version>
         </dependency>
+        <!--
         <dependency>
             <groupId>root.project.servlets</groupId>
             <artifactId>WebServices</artifactId>
@@ -92,12 +85,6 @@
         <dependency>
             <groupId>root.project.servlets</groupId>
             <artifactId>FileUploadServlet</artifactId>
-            <type>war</type>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>net.ensode.glassfishbook</groupId>
-            <artifactId>facesflow</artifactId>
             <type>war</type>
             <version>1.0</version>
         </dependency>

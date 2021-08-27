@@ -22,7 +22,6 @@
 			<artifactId>primary-source</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		-->
 		<dependency>
 			<groupId>javax.faces</groupId>
 			<artifactId>jsf-api</artifactId>
@@ -43,5 +42,6 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>4.0.1</version>
 		</dependency>
+	-->
 	</dependencies>
 </project>
