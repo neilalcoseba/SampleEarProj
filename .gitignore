@@ -12,3 +12,6 @@ projects/.settings
 projects/.project
 servlets/.settings
 servlets/.project
+.idea
+
+/**/.metadata

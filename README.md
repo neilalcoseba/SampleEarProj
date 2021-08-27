@@ -31,7 +31,24 @@ start-instance --sync full <INSTANCE_NAME>
 ```
 stop-instance <INSTANCE_NAME>
 ```
+- Error in deployment
 
+```
+Warning: Command _deploy did not complete successfully on server instance sample_1: remote failure: Failed to load the application on instance sample_1. The application will not run properly. Please fix your application and redeploy.
+Exception while loading the app : Error in linking security policy for sample_1 -- Inconsistent Module State. Please see server.log for more details.
+```
+
+```
+asadmin change-admin-password --domain_name domain1
+asadmin enable-secure-admin --port 4848
+
+asadmin add-library
+```
+
+- Disable CDI
+```
+asadmin set configs.config.server-config.cdi-service.enable-implicit-cdi=false
+```
 ## Notes
 1. This is created by Maven`s archetype-j2ee-simple archetype.
 2. Deployed and tested in Glassfish 4.

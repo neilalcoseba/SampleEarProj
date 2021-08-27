@@ -16,11 +16,13 @@
 		<finalName>${project.artifactId}</finalName>
 	</build>
 	<dependencies>
+		<!--
 		<dependency>
 			<groupId>root.project</groupId>
 			<artifactId>primary-source</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>javax.faces</groupId>
 			<artifactId>jsf-api</artifactId>
@@ -35,6 +37,11 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
 		</dependency>
 	</dependencies>
 </project>
