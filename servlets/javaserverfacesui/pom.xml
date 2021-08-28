@@ -16,12 +16,19 @@
 		<finalName>${project.artifactId}</finalName>
 	</build>
 	<dependencies>
-		<!--
 		<dependency>
 			<groupId>root.project</groupId>
 			<artifactId>primary-source</artifactId>
+			<version>1.0</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>root.project</groupId>
+			<artifactId>ejbs</artifactId>
+			<version>1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<!--
 		<dependency>
 			<groupId>javax.faces</groupId>
 			<artifactId>jsf-api</artifactId>

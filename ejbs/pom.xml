@@ -32,14 +32,16 @@
 				<artifactId>maven-ejb-plugin</artifactId>
 				<version>${maven-ejb-plugin-version}</version>
 				<configuration>
-					<!--
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
 						</manifest>
 					</archive>
-					-->
 					<ejbVersion>3.2</ejbVersion>
+					<!--
+					<filterDeploymentDescriptor>true</filterDeploymentDescriptor>
+					<generateClient>true</generateClient>
+					-->
 				</configuration>
 			</plugin>
 		</plugins>
