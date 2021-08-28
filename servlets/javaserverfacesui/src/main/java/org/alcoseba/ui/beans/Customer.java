@@ -1,11 +1,13 @@
 package org.alcoseba.ui.beans;
 
+import ejbs.dao.Bid;
 import ejbs.session.bid.PlaceBidBean;
 
-import javax.annotation.ManagedBean;
 import javax.ejb.EJB;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 
 @Named
 @RequestScoped
@@ -18,6 +20,8 @@ public class Customer {
     private String email;
 
     public String save() {
+        Bid bid = new Bid();
+        placeBidBean.addBid(bid);
         System.out.println(placeBidBean.getMessage());
         return "/confirmation.xhtml";
     }
