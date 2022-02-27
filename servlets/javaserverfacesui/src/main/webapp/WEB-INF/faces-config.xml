@@ -9,4 +9,9 @@
 		<managed-bean-class>org.alcoseba.ui.beans.UserBean</managed-bean-class>
 		<managed-bean-scope>request</managed-bean-scope>
 	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>customer</managed-bean-name>
+		<managed-bean-class>org.alcoseba.ui.beans.CustomerBean</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
 </faces-config>
