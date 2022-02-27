@@ -6,6 +6,12 @@
 3. Enable the **Use JAR archives for deployment.** by clicking the checkbox.
 4. Click **Apply and close**.
 
+## Received fatal alert: protocol_version (JDK 1.7)
+
+```
+    mvn -Dhttps.protocols=TLSv1.2
+```
+
 ## Notes
 1. This is created by Maven`s archetype-j2ee-simple archetype.
 2. Deployed and tested in Glassfish 4.

@@ -8,7 +8,7 @@ import ejbs.dao.Bid;
 
 @Stateless(name = "PlaceBid")
 public class PlaceBidBean implements PlaceBid {
-	@PersistenceContext(unitName = "actionBazaar")
+	@PersistenceContext(unitName = "sampleEARPersistenceUnit")
 	private EntityManager em;
 
 	public Bid addBid(Bid bid) {
