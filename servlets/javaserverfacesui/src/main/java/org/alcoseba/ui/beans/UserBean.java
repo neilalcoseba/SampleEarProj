@@ -1,7 +1,11 @@
 package org.alcoseba.ui.beans;
 
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 import java.io.Serializable;
 
+@RequestScoped
+@ManagedBean(name="user")
 public class UserBean implements Serializable {
 
 	private static final long serialVersionUID = -1316387916988047277L;

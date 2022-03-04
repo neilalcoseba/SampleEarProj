@@ -4,7 +4,11 @@ import ejbs.dao.Bid;
 import ejbs.session.bid.PlaceBidBean;
 
 import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 
+@RequestScoped
+@ManagedBean(name="customer")
 public class CustomerBean {
     @EJB
     private PlaceBidBean placeBidBean;
